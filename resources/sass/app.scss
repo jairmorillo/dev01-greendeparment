@@ -1,0 +1,900 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://cdn.greendepartment.org/assets/font/flaticon.scss");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    color: #fff;
+}
+body a {
+    color: #fffcf8;
+}
+.navbar {
+    font-size: 1.25rem;
+}
+.no-padding-left-right {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar .mx-auto .navbar-brand img {
+    width: 259px;
+    height: 95px;
+    margin: 0;
+    object-fit: contain;
+}
+.Navbar {
+    z-index: 100;
+}
+.bg-dark {
+    background-color: #212121 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3.8rem;
+    color: #fff !important;
+}
+
+h3 {
+    font-weight: 600;
+}
+h3 a {
+    color: #cecece !important;
+}
+
+p {
+    color: #fff !important;
+}
+
+.Footer {
+    position: relative;
+    color: #cecece;
+}
+.Footer .col-md-4 {
+    padding-bottom: 7rem;
+}
+.Footer .not-padding {
+    padding: 0px !important;
+}
+.Footer.Footer_line-top,
+.Footer.Footer_line-top-esp {
+    border-top: 1px #979797 solid;
+}
+.Footer .Footer_line-left {
+    border-left: 1px #979797 solid;
+}
+.Footer .Footer_line-rigth {
+    border-right: 1px #979797 solid;
+}
+.Footer .Footer_line-bottom {
+    border-bottom: 1px #979797 solid;
+}
+.Footer .Footer_col-space {
+    padding: 10px 0;
+}
+.Footer .Footer_space-top-bottom {
+    padding: 30px 0;
+}
+.Footer .Footer_no-paddin-left {
+    padding-left: 0px !important;
+}
+.Footer .Footer_no-paddin-right {
+    padding-right: 0px;
+}
+.Footer .Fotter_mask-top-line {
+    height: 1px;
+    background: #212121;
+    width: 36%;
+    position: absolute;
+    right: 0;
+    top: -1px;
+}
+.Footer .Footer_col-title {
+    display: block;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-bottom: 1px #979797 solid;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    color: #cecece;
+}
+.Footer .Footer_follow {
+    width: 25px;
+    display: block;
+    float: left;
+}
+.Footer .Footer_img {
+    margin: 5px 0px 5px 25px;
+    max-width: 100%;
+    height: 91px;
+}
+
+.Footer .Footer_licences {
+    margin: 45px 0px;
+}
+
+.Not_found-img {
+    width: 50%;
+}
+.Page_404 {
+    margin-top: 50px;
+}
+.list-unstyled {
+    font-size: 0.95rem;
+}
+.Slider {
+    position: relative;
+    height: 100vh;
+    //background-image: url(../img/fondo.webp);
+    //background-size: cover;
+    overflow: hidden;
+    z-index: 0;
+    background-repeat: no-repeat;
+    margin-top: -120px;
+}
+.Slider h1 {
+    font-size: 3rem;
+}
+.Slider_mask {
+    width: 100%;
+    position: absolute;
+    height: 101vh;
+    background-color: rgb(0 0 0 / 53%);
+    top: -1px;
+    z-index: 3;
+}
+.Slider_image {
+    width: 100%;
+}
+.Slider_content {
+    width: 52%;
+    position: absolute;
+    top: 45%;
+    left: 24%;
+}
+.Slider .Slider_content img {
+    width: 15px;
+}
+.Slider_text {
+    font-weight: 400;
+    color: #cecece;
+    margin-bottom: 50px;
+    width: 50%;
+    margin: 0px auto 50px;
+}
+.Slide .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.Slider .btn-circle {
+    width: 65px;
+    height: 65px;
+    padding: 6px 0px;
+    border-radius: 44px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    border-color: #ececec;
+}
+
+.Aboutus {
+    position: relative;
+}
+.Aboutus .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Aboutus p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 64%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.Aboutus .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.Aboutus .btn-circle {
+    width: 88px;
+    height: 88px;
+    padding: 6px 0px;
+    border-radius: 44px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    border-color: #219544;
+}
+
+.Aboutus img {
+    width: 24px;
+}
+.Aboutus h1 {
+    font-size: 3rem;
+}
+
+.Services {
+    position: relative;
+    margin: 150px 0px;
+}
+.Services img {
+    width: 100%;
+}
+.Services h1 {
+    margin: 45px 0px;
+}
+.Services .Services_text {
+    font-weight: 500;
+    margin-top: 20%;
+    padding-top: 20%;
+}
+.Services .Services_banner {
+    margin-top: 60px;
+}
+
+.SliderCarrusel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.SliderCarrusel_image {
+    width: 95%;
+}
+
+.Carrusel {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #219544;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.Carrusel h1 {
+    left: 25px;
+    position: absolute;
+    top: -46px;
+}
+.Carrusel h3 {
+    margin-top: 60px;
+}
+
+.Carrusel .react-multi-carousel-list {
+    padding-top: 14px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.Carrusel .Carrusel_LeftArrow {
+    position: absolute;
+    top: 60%;
+    left: 680px;
+    background: #fff;
+    width: 50px;
+    height: 40px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: #181818;
+    cursor: pointer;
+}
+
+.Carrusel .Carrusel_RightArrow {
+    position: absolute;
+    top: 60%;
+    right: 360px;
+    background: #fff;
+    width: 50px;
+    height: 40px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #181818;
+    cursor: pointer;
+}
+
+.Carrusel_container-icon {
+    border: 1px solid #219544;
+    border-radius: 25px;
+    width: 30px;
+    height: 30px;
+    margin: 5px auto;
+}
+
+.Carrusel .Carrusel_container-icon .svg-inline--fa.fa-arrow-left.fa-w-14.fa-1x {
+    margin: 8px auto;
+    display: block;
+}
+
+.Carrusel
+    .Carrusel_container-icon
+    .svg-inline--fa.fa-arrow-right.fa-w-14.fa-1x {
+    margin: 8px auto;
+    display: block;
+}
+.ServicesEspecial {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url(/images/sectionback.png);
+    background-size: cover;
+    border-bottom: 2px solid;
+    border-color: #219544;
+}
+
+.ServicesEspecial .ServicesEspecial_Item-container {
+    width: 100%;
+}
+.ServicesEspecial_Item-mask {
+    width: 100%;
+    background: #000;
+    height: 330px;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+.ServicesEspecial .ServicesEspecial_Item-one {
+    background: url(/images/roofer-1.png?968fc90…) #676565;
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid #fff;
+    margin: 0px 50px;
+    text-align: center;
+    min-height: 330px;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+}
+.ServicesEspecial .ServicesEspecial_Item-two {
+    background: url(/images/roofer-2.jpg) #676565;
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid #fff;
+    margin: 0px 50px;
+    text-align: center;
+    min-height: 330px;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+}
+.ServicesEspecial .ServicesEspecial_Item-tree {
+    background: url(/images/roofer-3.jpeg) #676565;
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid #fff;
+    margin: 0px 50px;
+    text-align: center;
+    min-height: 330px;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+}
+.ServicesEspecial .ServicesEspecial_Item-four {
+    background: url(/images/roofer-4.jpg) #676565;
+    background-size: cover;
+    border-radius: 25px;
+    border: 3px solid #fff;
+    margin: 0px 50px;
+    text-align: center;
+    min-height: 330px;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.ServicesEspecial_Item-container p {
+    display: block;
+    margin: 20px 50px;
+}
+
+.ServicesEspecial_Item-one h3,
+.ServicesEspecial_Item-two h3,
+.ServicesEspecial_Item-tree h3,
+.ServicesEspecial_Item-four h3 {
+    z-index: 9999999;
+    position: absolute;
+    bottom: 120px;
+    font-weight: 700;
+    font-style: italic;
+    left: 20px;
+}
+
+.ServicesEspecial .react-multi-carousel-list {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding-top: 111px;
+}
+.ServicesEspecial h1 {
+    z-index: 99999999;
+    display: block;
+    font-size: 3em;
+    width: 400px;
+    position: absolute;
+}
+.Whyus {
+    padding: 45px 0px;
+    border-bottom: 2px solid;
+    border-color: #219544;
+    margin-bottom: 50px;
+}
+.Whyus img {
+    width: 100%;
+}
+.Whyus .Whyus_content-img span {
+    display: block;
+    width: 60px;
+    float: right;
+    border: 2px solid #219544;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 58px;
+    text-align: center;
+}
+.Whyus .Whyus_content-img .Whyus_img {
+    width: 64%;
+    margin: 7px auto;
+}
+.Whyus_title {
+    position: absolute;
+    top: 0;
+}
+.Whyus_title-img {
+    margin-top: 45px;
+}
+.margin-top {
+    margin-top: 90px;
+}
+
+.Whyus_content {
+    text-align: justify;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+@media (min-width: 280px) {
+    .Navbar {
+        background: transparent;
+        z-index: 9999999999;
+        top: 0;
+        left: 0px;
+        width: 91%;
+        position: absolute;
+    }
+    .Navbar .show {
+        background: #212121;
+        border: 1px solid #029644;
+        border-radius: 16px;
+    }
+    .Navbar .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .Slider {
+        position: relative;
+        height: 60vh;
+        overflow: hidden;
+        z-index: 0;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+    }
+    .Slider h1 {
+        font-size: 1.5rem;
+    }
+    .Slider_content {
+        width: 100%;
+        position: absolute;
+        top: 25%;
+        left: 0%;
+    }
+    .Slider_text {
+        font-weight: 400;
+        color: #cecece;
+        margin-bottom: 50px;
+        font-size: 1rem;
+        width: 50%;
+        margin: 0px auto 20px;
+    }
+    .Aboutus h1 {
+        font-size: 2.5rem;
+    }
+    .Aboutus p {
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 0 auto;
+        width: 64%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .Carrusel .Carrusel_LeftArrow {
+        position: absolute;
+        top: 65%;
+        left: 44%;
+    }
+    .Carrusel .Carrusel_RightArrow {
+        position: absolute;
+        top: 65%;
+        right: 38%;
+    }
+
+    .Footer .Footer_line-left {
+        border-left: 0px #979797 solid;
+    }
+    .Footer .Footer_no-paddin-left {
+        padding-left: 15px !important;
+    }
+    .Footer .Fotter_mask-top-line {
+        width: 0%;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .Navbar {
+        background: transparent;
+        z-index: 9999999999;
+        top: 0;
+        left: 120px;
+        width: 100%;
+        position: absolute;
+    }
+    .Navbar .show {
+        background: #212121;
+        border: 1px solid #029644;
+        border-radius: 16px;
+    }
+    .Navbar .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .Slider {
+        position: relative;
+        height: 90vh;
+        overflow: hidden;
+        z-index: 0;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+    }
+    .Slider h1 {
+        font-size: 2.5rem;
+    }
+    .Slider_content {
+        width: 100%;
+        position: absolute;
+        top: 31%;
+        left: 0%;
+    }
+
+    .Slider_text {
+        font-weight: 400;
+        color: #cecece;
+        margin-bottom: 50px;
+        font-size: 1.5rem;
+        width: 50%;
+        margin: 0px auto 20px;
+    }
+    .Aboutus h1 {
+        font-size: 2.5rem;
+    }
+    .Aboutus p {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 0 auto;
+        width: 64%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Carrusel .Carrusel_LeftArrow {
+        position: absolute;
+        top: 65%;
+        left: 44%;
+    }
+    .Carrusel .Carrusel_RightArrow {
+        position: absolute;
+        top: 65%;
+        right: 38%;
+    }
+
+    .Footer .Footer_line-left {
+        border-left: 0px #979797 solid;
+    }
+    .Footer .Footer_no-paddin-left {
+        padding-left: 15px !important;
+    }
+    .Footer .Fotter_mask-top-line {
+        width: 0%;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .Navbar {
+        position: relative;
+        z-index: 9999999999;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .Navbar .show {
+        background: transparent;
+        border: 0px;
+        border-radius: 0px;
+    }
+    .Navbar .navbar-nav {
+        padding-left: 0px;
+        flex-direction: unset;
+    }
+    //Seccion 1
+    .Slider {
+        margin-top: -120px;
+        height: 100vh;
+    }
+    .Slider h1 {
+        font-size: 2.8rem;
+    }
+    .Slider .Slider_content {
+        width: 70%;
+        position: absolute;
+        top: 29%;
+        left: 16%;
+    }
+    .Slider_text {
+        font-weight: 400;
+        color: #cecece;
+        margin-bottom: 50px;
+        font-size: 1.8rem;
+        width: 50%;
+        margin: 0px auto 50px;
+    }
+    .Aboutus h1 {
+        font-size: 2.8rem;
+    }
+    .Aboutus p {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 0 auto;
+        width: 64%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    //Seccion 3
+    .Carrusel .react-multi-carousel-track {
+        width: auto;
+    }
+    .Carrusel .Carrusel_LeftArrow {
+        position: absolute;
+        top: 60%;
+        left: 409px;
+    }
+    .Carrusel .Carrusel_RightArrow {
+        position: absolute;
+        top: 60%;
+        right: 212px;
+    }
+    .Whyus_content {
+        text-align: justify;
+        margin-left: 30px;
+    }
+    .Footer .list-unstyled {
+        display: block;
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .Footer .list-unstyled li {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+    .Footer .Fotter_mask-top-line {
+        width: 37.1%;
+    }
+    .btn-outline-success {
+        color: #219544;
+        border-color: #219544;
+        margin-right: 13px;
+    }
+    .Footer .Footer_line-left {
+        border-left: 1px #979797 solid;
+    }
+    .Footer .Footer_no-paddin-left {
+        padding-left: 0px !important;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .Navbar {
+        position: relative;
+        position: relative;
+        z-index: 9999999999;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .Navbar .show {
+        background: transparent;
+        border: 0px;
+        border-radius: 0px;
+    }
+    .Navbar .navbar-nav {
+        padding-left: 0px;
+        flex-direction: unset;
+    }
+    //Seccion 1
+    .Slider {
+        margin-top: -120px;
+        height: 100vh;
+    }
+    .Slider h1 {
+        font-size: 3rem;
+    }
+    .Slider_text {
+        font-weight: 400;
+        color: #cecece;
+        margin-bottom: 50px;
+        font-size: 1.8rem;
+        width: 50%;
+        margin: 0px auto 50px;
+    }
+    .Aboutus h1 {
+        font-size: 3rem;
+    }
+    .Aboutus p {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin: 0 auto;
+        width: 64%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Carrusel .react-multi-carousel-track {
+        width: auto;
+    }
+    .Carrusel .Carrusel_LeftArrow {
+        position: absolute;
+        top: 60%;
+        left: 559px;
+    }
+    .Carrusel .Carrusel_RightArrow {
+        position: absolute;
+        top: 60%;
+        right: 302px;
+    }
+    .Footer .list-unstyled {
+        display: block;
+        width: 100%;
+    }
+    .Footer .list-unstyled li {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+    .Footer .Fotter_mask-top-line {
+        width: 36.3%;
+    }
+    .btn-outline-success {
+        color: #219544;
+        border-color: #219544;
+        margin-right: 0px;
+    }
+    .Footer .Footer_line-left {
+        border-left: 1px #979797 solid;
+    }
+    .Footer .Footer_no-paddin-left {
+        padding-left: 0px !important;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .Navbar {
+        position: relative;
+        z-index: 9999999999;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .Navbar .show {
+        background: transparent;
+        border: 0px;
+        border-radius: 0px;
+    }
+    .Navbar .navbar-nav {
+        padding-left: 0px;
+        flex-direction: unset;
+    }
+    //Seccion 1
+    .Slider {
+        margin-top: -120px;
+        height: 100vh;
+    }
+    .Slider h1 {
+        font-size: 3rem;
+    }
+    .Slider_text {
+        font-weight: 400;
+        color: #cecece;
+        margin-bottom: 50px;
+        font-size: 1.8rem;
+        width: 50%;
+        margin: 0px auto 50px;
+    }
+    .Aboutus h1 {
+        font-size: 3rem;
+    }
+    .Aboutus p {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin: 0 auto;
+        width: 64%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Carrusel .react-multi-carousel-track {
+        width: auto;
+    }
+    .Carrusel .Carrusel_RightArrow {
+        position: absolute;
+        top: 60%;
+        right: 360px;
+    }
+    .Carrusel .Carrusel_LeftArrow {
+        position: absolute;
+        top: 60%;
+        left: 680px;
+    }
+    .Footer .list-unstyled {
+        display: block;
+        width: 100%;
+    }
+    .Footer .list-unstyled li {
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+    .Footer .Fotter_mask-top-line {
+        width: 35.8%;
+    }
+    .btn-outline-success {
+        color: #219544;
+        border-color: #219544;
+        margin-right: 0px;
+    }
+    .Footer .Footer_line-left {
+        border-left: 1px #979797 solid;
+    }
+    .Footer .Footer_no-paddin-left {
+        padding-left: 0px !important;
+    }
+}
